@@ -1,14 +1,12 @@
 'use client';
 
 import Link from 'next/link';
-import { Button } from '@/components/ui/Button';
 import { useAppSelector } from '@/store/hooks';
 import { selectUser } from '@/store/features/authSlice';
 import Image from 'next/image';
 import { ChevronDown, ShoppingCart } from 'lucide-react';
 
 const Navbar = () => {
-  const user = useAppSelector(selectUser);
 
   return (
     <header className="absolute top-0 z-40 w-full text-white">
