@@ -71,7 +71,7 @@ export default function HomePage() {
                   <p className="text-blue-600 font-semibold">Strong Backlinks, Strong You</p>
                   <h2 className="text-3xl md:text-4xl font-bold mt-2 text-black">Quality Guest Post – Top Choice for Guest Post Service</h2>
                   <p className="mt-4 text-lg text-gray-700">
-                    We've earned the SEO industry's trust by boosting their clients' ranking and ROI. Looking for high authority backlinks and outshine competitors? Our affordable guest posting service can help you achieve your business goals. Checkout our packages below or today for a free contact and learn how we can grow your business online.
+                    We&apos;ve earned the SEO industry&apos;s trust by boosting their clients&apos; ranking and ROI. Looking for high authority backlinks and outshine competitors? Our affordable guest posting service can help you achieve your business goals. Checkout our packages below or today for a free contact and learn how we can grow your business online.
                   </p>
                 </div>
               </div>
@@ -105,7 +105,7 @@ export default function HomePage() {
                   <Image src="/high-quality-1_b33e13a071eda47373a2585d484c949f.png" alt="Quality Content" width={64} height={64} />
                   <div>
                     <h3 className="text-xl font-semibold">Quality Content</h3>
-                    <p className="text-blue-100 mt-2">At QGP, we write high-quality, original content that's error-free. Our research ensures engaging topics relevant to your audience.</p>
+                    <p className="text-blue-100 mt-2">At QGP, we write high-quality, original content that&apos;s error-free. Our research ensures engaging topics relevant to your audience.</p>
                   </div>
                 </div>
                 {/* Feature 3 */}
@@ -113,7 +113,7 @@ export default function HomePage() {
                   <Image src="/rank_587efd9b620eb195529e02ee1a04e54e.png" alt="Boost SEO" width={64} height={64} />
                   <div>
                     <h3 className="text-xl font-semibold">Boost SEO</h3>
-                    <p className="text-blue-100 mt-2">At QGP, our blogger outreach services get you targeted traffic and improve your web pages' search engine rankings with relevant links.</p>
+                    <p className="text-blue-100 mt-2">At QGP, our blogger outreach services get you targeted traffic and improve your web pages&apos; search engine rankings with relevant links.</p>
                   </div>
                 </div>
                 {/* Feature 4 */}
@@ -161,7 +161,7 @@ export default function HomePage() {
                   <Image src="/calendar-1_6e0154bdec0e9c7f187e5650545f8920.png" alt="Meeting Deadlines" width={64} height={64} />
                   <div>
                     <h3 className="text-xl font-semibold">Meeting Deadlines</h3>
-                    <p className="text-blue-100 mt-2">At QGP, we prioritize the timely delivery of all our guest post orders. Whether it's a bulk order or a small one, we ensure deadlines are met.</p>
+                    <p className="text-blue-100 mt-2">At QGP, we prioritize the timely delivery of all our guest post orders. Whether it&apos;s a bulk order or a small one, we ensure deadlines are met.</p>
                   </div>
                 </div>
               </div>
@@ -312,7 +312,7 @@ export default function HomePage() {
             <Card className="mt-16 max-w-3xl mx-auto text-center p-8 bg-white rounded-lg shadow-lg">
               <h3 className="text-3xl font-bold text-black">Do you require something more powerful?</h3>
               <p className="mt-4 text-lg text-gray-700">
-                Check out our premium blogs to position your business ahead of competitors. Gain featured, dofollow backlinks on some of the internet's most popular high-authority websites!
+                Check out our premium blogs to position your business ahead of competitors. Gain featured, dofollow backlinks on some of the internet&apos;s most popular high-authority websites!
               </p>
               <Button size="lg" className="mt-6 bg-pink-500 hover:bg-pink-600 text-white">Premium Shop</Button>
             </Card>
@@ -408,7 +408,7 @@ export default function HomePage() {
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-12">
-                  <AccordionTrigger>Why Aren't My Links Showing in Google Search Console or Ahrefs?</AccordionTrigger>
+                  <AccordionTrigger>Why Aren&apos;t My Links Showing in Google Search Console or Ahrefs?</AccordionTrigger>
                   <AccordionContent>
                     <p>If the links are not showing in Ahrefs or Google Search Console, there could be a number of reasons. Google hasn’t yet indexed the website or blog post, which is the most frequent explanation. It just needs to wait for Google to crawl the website once more in this instance. Reach out to us and we’ll look into the matter more if the links are still not visible after many weeks. Do not worry about this, we guarantee for indexing.</p>
                   </AccordionContent>
@@ -457,7 +457,7 @@ export default function HomePage() {
                 <p className="text-blue-600 font-semibold">Why Choose Quality Guest Post?</p>
                 <h2 className="text-3xl md:text-4xl font-bold mt-2 text-black">Boost Your Online Business</h2>
                 <p className="mt-4 text-gray-700 text-lg">
-                  We have skilled experts, tools, connections, and years of experience to manage guest posting projects of any size. Enhance your business's growth potential by using our guest blog posting service. Get started by selecting the best package, today!
+                  We have skilled experts, tools, connections, and years of experience to manage guest posting projects of any size. Enhance your business&apos;s growth potential by using our guest blog posting service. Get started by selecting the best package, today!
                 </p>
                 <div className="grid grid-cols-2 gap-4 mt-6 text-center">
                   <Card className="bg-white rounded-lg shadow-lg p-4"><p className="text-4xl font-bold text-blue-600">380</p><p>Client Feedback</p></Card>
@@ -539,7 +539,7 @@ export default function HomePage() {
                     <CarouselItem className="md:basis-1/2">
                       <Card className="bg-white p-6 rounded-lg shadow-lg relative">
                         <div className="absolute bottom-0 left-4 w-0 h-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-white transform translate-y-full"></div>
-                        <p className="text-gray-600">"Working with Quality Guest post has been a pleasure. Great team effort, superb quality content, and thank you for posting the guest blogs on some of the top-ranking sites."</p>
+                        <p className="text-gray-600">&quot;Working with Quality Guest post has been a pleasure. Great team effort, superb quality content, and thank you for posting the guest blogs on some of the top-ranking sites.&quot;</p>
                         <div className="mt-4">
                           <p className="font-semibold text-black">Firas Kittaneh</p>
                           <p className="text-sm text-gray-500">CEO - OCLU</p>
@@ -549,7 +549,7 @@ export default function HomePage() {
                     <CarouselItem className="md:basis-1/2">
                       <Card className="bg-white p-6 rounded-lg shadow-lg relative">
                         <div className="absolute bottom-0 left-4 w-0 h-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-white transform translate-y-full"></div>
-                        <p className="text-gray-600">"It feels great to write a testimonial for Quality Guest Post. I am delighted with their service and have availed their service 15 times to date."</p>
+                        <p className="text-gray-600">&quot;It feels great to write a testimonial for Quality Guest Post. I am delighted with their service and have availed their service 15 times to date.&quot;</p>
                         <div className="mt-4">
                           <p className="font-semibold text-black">Ekim Saribardak</p>
                           <p className="text-sm text-gray-500">RewireSecurity.co.uk</p>
@@ -559,7 +559,7 @@ export default function HomePage() {
                     <CarouselItem className="md:basis-1/2">
                       <Card className="bg-white p-6 rounded-lg shadow-lg relative">
                         <div className="absolute bottom-0 left-4 w-0 h-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-white transform translate-y-full"></div>
-                        <p className="text-gray-600">"I have had the opportunity to work with so many different guest posting service providers, but no one was even close to Quality Guest Post."</p>
+                        <p className="text-gray-600">&quot;I have had the opportunity to work with so many different guest posting service providers, but no one was even close to Quality Guest Post.&quot;</p>
                         <div className="mt-4">
                           <p className="font-semibold text-black">Jeremy Lindy</p>
                           <p className="text-sm text-gray-500">Taniusa.com</p>
@@ -569,7 +569,7 @@ export default function HomePage() {
                     <CarouselItem className="md:basis-1/2">
                       <Card className="bg-white p-6 rounded-lg shadow-lg relative">
                         <div className="absolute bottom-0 left-4 w-0 h-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-white transform translate-y-full"></div>
-                        <p className="text-gray-600">"Thank you for your endless support and for being so professional. You guys are exactly what I expected to be. I give Quality Guest Post 10 on 10."</p>
+                        <p className="text-gray-600">&quot;Thank you for your endless support and for being so professional. You guys are exactly what I expected to be. I give Quality Guest Post 10 on 10.&quot;</p>
                         <div className="mt-4">
                           <p className="font-semibold text-black">Client Name</p>
                           <p className="text-sm text-gray-500">ClientCompany.com</p>
