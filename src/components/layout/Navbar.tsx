@@ -1,10 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { useAppSelector } from '@/store/hooks';
-import { selectUser } from '@/store/features/authSlice';
 import Image from 'next/image';
-import { ChevronDown, ShoppingCart } from 'lucide-react';
+import { ShoppingCart } from 'lucide-react';
 
 const Navbar = () => {
 
