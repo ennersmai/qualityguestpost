@@ -1,46 +1,54 @@
-'use client';
-
-import { Button } from '@/components/ui/Button';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/Card';
-import { Input } from '@/components/ui/Input';
-import Link from 'next/link';
+"use client";
+import { Button } from "@/components/ui/Button";
+import { Card } from "@/components/ui/Card";
+import { Input } from "@/components/ui/Input";
+import Link from "next/link";
+import { useState } from "react";
 
 export default function LoginPage() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    // Handle login logic here
+    console.log("Email:", email);
+    console.log("Password:", password);
+  };
+
   return (
-    <div className="flex items-center justify-center min-h-screen">
-      <Card className="w-full max-w-sm">
-        <CardHeader>
-          <CardTitle className="text-2xl">Login</CardTitle>
-          <CardDescription>
-            Enter your email below to login to your account.
-          </CardDescription>
-        </CardHeader>
-        <CardContent className="grid gap-4">
-          <div className="grid gap-2">
-            <label htmlFor="email">Email</label>
-            <Input id="email" type="email" placeholder="m@example.com" required />
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <Card className="w-full max-w-md p-8 space-y-6">
+        <h2 className="text-2xl font-bold text-center">Login</h2>
+        <form onSubmit={handleSubmit} className="space-y-6">
+          <div>
+            <Input
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
           </div>
-          <div className="grid gap-2">
-            <label htmlFor="password">Password</label>
-            <Input id="password" type="password" required />
+          <div>
+            <Input
+              type="password"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
           </div>
-        </CardContent>
-        <CardFooter className="flex flex-col">
-          <Button className="w-full">Sign in</Button>
-          <div className="mt-4 text-center text-sm">
-            Don&apos;t have an account?{' '}
-            <Link href="/register" className="underline">
-              Sign up
-            </Link>
-          </div>
-        </CardFooter>
+          <Button type="submit" className="w-full">
+            Login
+          </Button>
+        </form>
+        <p className="text-center">
+          Don't have an account?{" "}
+          <Link href="/register" className="text-blue-600 hover:underline">
+            Sign up
+          </Link>
+        </p>
       </Card>
     </div>
   );

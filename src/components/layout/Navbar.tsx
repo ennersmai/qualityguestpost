@@ -9,7 +9,7 @@ import { ChevronDown, ShoppingCart } from 'lucide-react';
 const Navbar = () => {
 
   return (
-    <header className="absolute top-0 z-40 w-full text-white">
+    <header className="absolute top-0 z-40 w-full text-white bg-[#205abe]">
       <div className="container mx-auto px-4 flex h-24 items-center justify-between">
         <div className="flex items-center">
           <Link href="/" className="flex items-center space-x-2">
@@ -25,9 +25,7 @@ const Navbar = () => {
           <Link href="/standard-guest-post" className="hover:text-gray-300">Standard Guest Post</Link>
           <Link href="/premium-shop" className="hover:text-gray-300">Premium Shop</Link>
           <Link href="/blog" className="hover:text-gray-300">Blog</Link>
-          <button className="flex items-center hover:text-gray-300">
-            Contact Us <ChevronDown className="ml-1 h-5 w-5" />
-          </button>
+          <Link href="/contact-us" className="hover:text-gray-300">Contact Us</Link>
           <Link href="/my-account" className="hover:text-gray-300">My Account</Link>
           <Link href="/cart" className="relative hover:text-gray-300">
             <ShoppingCart className="h-7 w-7" />

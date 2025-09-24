@@ -4,20 +4,22 @@ import { Card } from "@/components/ui/Card";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/Carousel";
 import { Ticket } from "lucide-react";
 import Image from 'next/image';
+import Navbar from "@/components/layout/Navbar";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen">
+      <Navbar />
       <main className="flex-1">
         <div className="relative">
           {/* Hero Section */}
           <section
-            className="relative text-white pt-20 md:pt-32 pb-[calc(16rem+130px)] bg-cover bg-center bg-no-repeat z-10"
+            className="relative text-white pt-20 md:pt-32 pb-80 bg-cover bg-center bg-no-repeat z-10"
             style={{ backgroundImage: "url('/ryse-bg.png')" }}
           >
-            <div className="container mx-auto px-4 relative">
+            <div className="container mx-auto px-4 md:px-20 relative">
               <div className="grid md:grid-cols-2 gap-8 items-center">
-                <div className="space-y-6 text-left">
+                <div className="space-y-6 text-left pr-8">
                   <h1 className="text-4xl md:text-5xl font-bold leading-tight">
                     Affordable Guest Post Service - #Blogger Outreach
                   </h1>
@@ -32,8 +34,8 @@ export default function HomePage() {
                   <Image
                     src="/ryse-image-new1_2381223ebddcbc05bf0fa9acee7969c9.png"
                     alt="Rocket Illustration"
-                    width={500}
-                    height={500}
+                    width={600}
+                    height={600}
                     className="object-contain"
                   />
                 </div>

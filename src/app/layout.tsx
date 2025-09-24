@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { ReduxProvider } from "@/store/ReduxProvider";
 
@@ -32,7 +31,6 @@ export default function RootLayout({
       >
         <ReduxProvider>
           <div className="relative min-h-screen">
-            <Navbar />
             <main className="flex-1">{children}</main>
             <Footer />
           </div>
